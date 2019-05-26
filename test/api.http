@@ -1,0 +1,38 @@
+@host = 47.96.2.39
+@port = 80
+
+### api接口
+GET http://{{host}}:{{port}}/swagger
+
+### 高级搜索用工计划列表
+POST http://{{host}}:{{port}}/orders/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "current": 1,
+  "departments": [
+    100000000000
+  ],
+  "maxCreateDate": 50000000000000,
+  "maxEmployees": 100,
+  "maxWorkDate":500000000000000,
+  "minCreateDate": 0,
+  "minEmployees": 0,
+  "minWorkDate": 0,
+  "size": 10,
+  "states": [
+    -1,1,2,3,0
+  ]
+}
+
+### 获取指定部门下岗位
+GET http://{{host}}:{{port}}/departments/posts
+  ?departments=100000000000
+  &departments=100000000001
+
+
+### 获取招聘列表以及高级搜索
+POST http://{{host}}:{{port}}/advertise/advertiseList
+  ?departments=100000000000
+  &hotalId=800000000000
+  &hasSplit=0

@@ -1,0 +1,13 @@
+/*------------------------reset------------------------*/
+html,body,ol,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,input,fieldset,legend,img,i,em,b,strong,textarea,select{margin:0;padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+strong,h1,h2,h3,h4,h5,h6{font-weight:normal;}
+ em{font-style:normal;}
+img{border:none;}
+body{font-size: 12px;width:100%;height:100%;font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei","Heiti SC",  "WenQuanYi Micro Hei", sans-serif;}
+html{width:100%;height:100%;}
+@font-face{
+    font-family: 'Engschrift'; 
+    src: url('../fonts/Engschrift.otf');
+}

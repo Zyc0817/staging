@@ -1,0 +1,59 @@
+#table{
+	margin-top:3px;
+	padding: 0 20px;
+	.checkBox{
+		cursor: pointer;
+	}
+	.table{
+		border-collapse: collapse;
+		thead{		
+			tr{
+				height: 47px;
+				border-bottom:2px solid #4c8aff;
+				th{
+					height: 17px;
+					line-height: 17px;
+					color: #444950;
+					font-size: 12px;
+				}
+			}
+		}
+		tbody{
+			tr{
+				height: 47px;
+				background-color: #f4f8fc;
+				td{
+					height: 17px;
+					line-height: 17px;
+					text-align:center;
+					font-size: 12px;
+					color: #444950;
+					.clickArea{
+						color: #4c8aff;
+						cursor: pointer;
+					}
+					.clickAreaRed{
+						color: #e45a3c;
+						cursor: pointer;
+					}
+					.ml20{
+						margin-left: 20px;
+					}
+					.mr20{
+						margin-right: 20px;
+					}
+					.null{
+						width: 24px;
+						height: 1px;
+						background-color: #d4d4d4;
+						margin: 0 auto;
+					}
+				}
+			}
+			tr:nth-of-type(2n){
+				background-color: #fff;
+			}
+		}
+		
+	}
+}

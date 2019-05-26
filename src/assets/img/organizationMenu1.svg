@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>层级架构</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00117154812 0 13.9871911 0 13.9871911 14 0.00117154812 14"></polygon>
+    </defs>
+    <g id="__wesketch_export" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="层级架构">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <polygon id="Fill-1" fill="#4C8AFF" mask="url(#mask-2)" points="12.9133501 6.49429888 7.51079498 6.49429888 7.51079498 3.23618994 9.69264714 3.23618994 9.69264714 0 4.35417573 0 4.35417573 3.23618994 6.49904603 3.23618994 6.49904603 6.49429888 1.07956206 6.49429888 1.07956206 10.8091732 0 10.8091732 0 14 3.21588006 14 3.21588006 10.8091732 2.15896792 10.8091732 2.15896792 7.57300279 6.49904603 7.57300279 6.49904603 10.8091732 5.39697071 10.8091732 5.39697071 14 8.61287029 14 8.61287029 10.8091732 7.51079498 10.8091732 7.51079498 7.57300279 11.8395091 7.57300279 11.8395091 10.8091732 10.771682 10.8091732 10.771682 14 13.9871911 14 13.9871911 10.8091732 12.9133501 10.8091732"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
